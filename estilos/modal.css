@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+/*@media screen and (min-width: 650px) {
+    .logo {
+        display: none;
+        width: 50%;
+        height: 20px;
+    }    
+}*/
+
 * {
     margin: 0;
     padding: 0;
@@ -8,11 +16,13 @@
 body {
     background-image: linear-gradient(to bottom, rgb(241, 86, 13), rgb(209, 104, 17), rgb(230, 19, 4));
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .logo {
     max-width: 620px;
     min-width: none;
+    margin-top: 20px;
  }
 
 .card_img {
@@ -98,4 +108,16 @@ body {
 .modal_active {
     visibility: visible;
     opacity: 1;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #E55D0F;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFFA00;
 }
