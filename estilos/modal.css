@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-/*@media screen and (min-width: 650px) {
-    .logo {
-        display: none;
-        width: 50%;
-        height: 20px;
-    }    
-}*/
-
 * {
     margin: 0;
     padding: 0;
@@ -20,8 +12,7 @@ body {
 }
 
 .logo {
-    max-width: 620px;
-    min-width: none;
+    width: 90%;
     margin-top: 20px;
  }
 
