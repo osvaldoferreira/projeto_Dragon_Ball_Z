@@ -19,7 +19,7 @@ body {
 .card_img {
     width: 200px;
     height: 220px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin: 5px;
     background-color: rgba(255, 255, 255, 0.966);
     text-align: center;
@@ -42,7 +42,7 @@ body {
 
 .small_img:hover {
     filter: grayscale(100%);
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 
 .row {
