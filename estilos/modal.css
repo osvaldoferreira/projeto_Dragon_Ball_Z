@@ -5,6 +5,48 @@
     padding: 0;
 }
 
+@media (max-width: 432px) {
+    body {
+        width: 100vw;
+        background-color: black;
+    }
+
+    .card_img {
+        width: 200px;
+        height: 220px;
+        overflow: hidden;
+        margin: 5px;
+        background-color: rgba(12, 11, 11, 0.966);
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .small_img {
+        height: 70%;
+        cursor: pointer;
+        transition: all linear 0.4s;
+        /*border: 1px solid black;*/
+    }
+
+    #modal_img {
+        height: 110vh;
+        transform: scale(0);
+        transition: all linear .3s;
+    }
+
+    .modal {
+        width: 150vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.867);
+        position: fixed;
+        visibility: hidden;
+        z-index: 1;
+        opacity: 0;
+        transition: visibility 0.8s linear, opcacity 0.5s  linear;
+    }
+    
+}
+
 body {
     background-image: linear-gradient(to bottom, rgb(241, 86, 13), rgb(209, 104, 17), rgb(230, 19, 4));
     text-align: center;
@@ -112,3 +154,5 @@ body {
 ::-webkit-scrollbar-thumb {
     background-color: #FFFA00;
 }
+
+
